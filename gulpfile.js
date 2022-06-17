@@ -6,3 +6,10 @@ function buildStyles(){
         .pipe(sass())
         .pipe(dest('css'))
 }
+
+function watchSass(){
+    watch(['index.scss'], buildStyles)
+}
+
+
+exports.default = series(buildStyles,watchSass)
