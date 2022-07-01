@@ -2,7 +2,7 @@
 
     $complement: complement($color);
 
-    $light-complement: lighten($complement);
+    $light-complement: lighten($complement,30);
 
     @return $light-complement
 }

@@ -1,4 +1,5 @@
 // variables & functions
+@import '_functions.scss';
 @import '_variables.scss';
 
 // base & layout
@@ -12,3 +13,5 @@
 @import 'components/_button.scss';
 
 // utilities (margin, padding, opacity, etc)
+
+@import '_utilities.scss'
